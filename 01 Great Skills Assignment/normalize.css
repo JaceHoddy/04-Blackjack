@@ -1,0 +1,47 @@
+* {
+    font-family: "Roboto Mono";
+}
+header {
+    max-width: 60rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#who {
+    display: flex;
+    justify-content: space-between;
+    max-width: 60rem;
+}
+#about {
+    display: flex;
+    max-width: 60rem;
+}
+#about ul {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+#links {
+    background-color: #393939;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
+    row-gap: 5px;
+}
+#links a {
+    width: 30%;
+    max-width: 20rem;
+    display: flex;
+    height: 10rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #757575;
+    color: white;
+}
+footer {
+    background-color: rgb(238, 195, 115);
+    max-width: 60rem;
+}
