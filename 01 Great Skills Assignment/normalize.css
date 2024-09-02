@@ -30,10 +30,11 @@ header {
     justify-content: space-between;
     padding: 5px;
     row-gap: 5px;
+    max-width: 60rem;
 }
 #links a {
     width: 30%;
-    max-width: 20rem;
+    max-width: 40rem;
     display: flex;
     height: 10rem;
     justify-content: center;
