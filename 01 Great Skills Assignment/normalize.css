@@ -1,6 +1,10 @@
 * {
     font-family: "Roboto Mono";
 }
+body {
+    margin: 0 auto;
+    max-width: 60rem;
+}
 header {
     max-width: 60rem;
     display: flex;
